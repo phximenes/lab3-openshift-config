@@ -4,5 +4,5 @@ resources:
   - ../../base
 images:
   - name: agenda-app
-    newName: <REGISTRY>/<usuario>/agenda
+    newName: image-registry.openshift-image-registry.svc:5000/lucas-dev-lab-final/agenda
     newTag: v1

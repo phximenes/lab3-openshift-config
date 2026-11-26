@@ -4,8 +4,8 @@ resources:
   - ../../base
 images:
   - name: agenda-app
-    newName: <REGISTRY>/<usuario>/agenda
-    newTag: v1
+    newName: image-registry.openshift-image-registry.svc:5000/lucas-dev-lab-final/agenda
+    newTag: v2
 replicas:
   - name: agenda-web
     count: 3
